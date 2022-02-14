@@ -1,0 +1,21 @@
+.grid-container {
+  background-color: red;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 30px;
+  text-align: center;
+}
+
+.grid-container > * {
+  background-color: #44224f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid7 {
+  grid-column: 3 / 5;
+  grid-row: 2 / 4;
+}
